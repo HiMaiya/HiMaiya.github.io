@@ -4,12 +4,18 @@
   
     
     <entry>
-      <title>The Beginning</title>
+      <title>Hexo搭建网页：从入门到入土</title>
       <link href="/2022/10/31/index/"/>
       <url>/2022/10/31/index/</url>
       
-        <content type="html"><![CDATA[<p><span style='font-size:30px'> <strong>前言</strong></span></p><p>这是个极其曲折的过程，采用Hexo和Github 搭建网页确实很容易，butterfly主题的应用网上也能查到很多相关资料。</p><p>   但是作为一个零基础的小白，后续的维护与插件的更新属实是让我头皮发麻。我写这个小站的初衷也是为了当个个人日记，记录下自己的学习过程，成长经历。同时也是记录下自己的操作，防止日后脑溢血……</p><p>路漫漫其修远兮，，，<img src="https://s2.loli.net/2022/10/31/qh7yOMKrjHlSkZC.jpg" alt="3ceaca8f86157859.jpg" style="zoom:25%;" /></p><hr><p><span style='font-size:30px'> <strong>Hexo+GitHub的优缺点</strong></span></p><p>用GitHub Pages来搭建有很多优点</p><ul><li><p>首先就是我最吸引我的，零成本，不用购买服务器和域名（域名的事以后再说），一切工作都能在Git Hub上完成。</p></li><li><p>不用维护，而且很稳定，搭建几年后再看，文章可能还在。</p></li><li><p>官方有很多现成框架可以直接使用。</p></li><li><p>Git Hub上大佬真的多，各种资源直接调用。</p></li></ul><p>但是也有很多缺点（很头疼）</p><ul><li><p>搭建过程复杂，需要搭建环境，容易出错。</p></li><li><p>国内访问会稍慢，不过可以设置通过国内服务器访问（暂时不会）。</p></li><li><p>静态网页，需要每次手动上传。</p></li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title=" 前言"></a><span style='font-size:30px'> <strong>前言</strong></span></h1><p>这是个极其曲折的过程，采用Hexo和Github 搭建网页确实很容易，butterfly主题的应用网上也能查到很多相关资料。</p><p>   但是作为一个零基础的小白，后续的维护与插件的更新属实是让我头皮发麻。我写这个小站的初衷也是为了当个个人日记，记录下自己的学习过程，成长经历。同时也是记录下自己的操作，防止日后脑溢血……</p><p>路漫漫其修远兮，，，<img src="https://s2.loli.net/2022/10/31/qh7yOMKrjHlSkZC.jpg" alt="3ceaca8f86157859.jpg" style="zoom:25%;" /></p><hr><h1 id="Hexo-GitHub的优缺点"><a href="#Hexo-GitHub的优缺点" class="headerlink" title=" Hexo+GitHub的优缺点"></a><span style='font-size:30px'> <strong>Hexo+GitHub的优缺点</strong></span></h1><p>用GitHub Pages来搭建有很多优点</p><ul><li><p>首先就是我最吸引我的，零成本，不用购买服务器和域名（域名的事以后再说），一切工作都能在Git Hub上完成。</p></li><li><p>不用维护，而且很稳定，搭建几年后再看，文章可能还在。</p></li><li><p>官方有很多现成框架可以直接使用。</p></li><li><p>Git Hub上大佬真的多，各种资源直接调用。</p></li></ul><p>但是也有很多缺点（很头疼）</p><ul><li><p>搭建过程复杂，需要搭建环境，容易出错。</p></li><li><p>国内访问会稍慢，不过可以设置通过国内服务器访问（暂时不会）。</p></li><li><p>静态网页，需要每次手动上传。</p></li></ul><p>主题采用的是Butterfly。<a href= "https://butterfly.js.org/posts/21cfbf15/" >详见butterfly的搭建与美化教程</a></p><hr><h1 id="常用命令"><a href="#常用命令" class="headerlink" title=" 常用命令"></a><span style='font-size:30px'> <strong>常用命令</strong></span></h1><p>代码编辑使用的是Pycharm，网页文件使用的是Typora。</p><ul><li><p>主题的更新与部署</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo cl</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d      # 部署</span><br><span class="line">hexo g -d   # 生成页面并部署</span><br><span class="line">hexo help   # 帮助</span><br></pre></td></tr></table></figure></li><li><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;name&quot;      # 新建文章</span><br><span class="line"></span><br><span class="line">hexo new page &quot;name&quot; # 新建页面</span><br></pre></td></tr></table></figure></li></ul><hr><h1 id="后记"><a href="#后记" class="headerlink" title=" 后记"></a><span style='font-size:30px'> <strong>后记</strong></span></h1><p>这是我第三遍尝试搭建自己的页面。第一个当实验，什么都不懂。第二个没有正确配置，并且没有备份，导致BUG成堆，直接崩溃。</p><p>第三个打算记录下自己的操作，方便日后找BUG。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> Hexo的搭建之旅 </category>
+          
+      </categories>
       
       
     </entry>
